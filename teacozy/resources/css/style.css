@@ -1,0 +1,183 @@
+
+body{
+  background-color: black;
+  opacity: .9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0;
+
+}
+
+/* Header */
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo{
+flex-grow: 1;
+}
+
+img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav{
+text-align: right;
+}
+
+nav span{
+  padding: 20px 10px;
+}
+
+/* Main */
+.main{
+  opacity: .9;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Mission */
+
+.mission{
+  background-image: url("/Users/angelachristian/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  left: 90px;
+}
+
+.ourmission{
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ourmission h2{
+  margin-bottom: 0;
+}
+
+.ourmission h4{
+  margin: ;
+}
+
+/* Tea of the Month */
+
+.month{
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  flex-direction: column;
+  position: relative;
+  left: 190px;
+}
+
+.text{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.items{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.item p{
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+/* Locations */
+
+.locations{
+  background-image: url("/Users/angelachristian/teacozy/resources/images/img-locations-background.jpg");
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+  position: relative;
+  left: 90px;
+}
+
+h2{
+  display: block;
+}
+
+.locations h2{
+  margin-bottom: 15px;
+}
+
+
+.address{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.downtown,
+.bayside,
+.oakdale{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+.downtown,
+.bayside{
+  margin-right: 40px;
+}
+
+
+/* Contact Information */
+
+.contact{
+  height: 200px;
+  text-align: center;
+  display: block;
+}
+
+/* Footer */
+
+footer{
+  padding-left: 20px;
+  text-align: left;
+  position: static;
+}
+
+h5{
+  display: block;
+}
